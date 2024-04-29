@@ -54,12 +54,6 @@ export const HeroSection = () => {
     >
       <div className="w-full flex items-center justify-center flex-col">
         <Image
-          src="/images/InfinitusxHackSRM.png"
-          alt="HackSRM Logo"
-          width={700}
-          height={500}
-        />
-        <Image
           src="/images/hack-srm-logo.png"
           alt="HackSRM Logo"
           width={700}
@@ -72,17 +66,17 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-row font-josefin-sans justify-center gap-1 text-4xl sm:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
           <div className="flex flex-col gap-2 text-center">
-            <span className="font-extralight">{days}</span>
+            <span className="font-extralight">00</span>
             <span className="text-lg font-normal">Days</span>
           </div>
           <span>:</span>
           <div className="flex flex-col gap-2 text-center">
-            <span className="font-extralight">{hours}</span>
+            <span className="font-extralight">00</span>
             <span className="text-lg font-normal">Hours</span>
           </div>
           <span>:</span>
           <div className="flex flex-col gap-2 text-center">
-            <span className="font-extralight">{minutes}</span>
+            <span className="font-extralight">00</span>
             <span className="text-lg font-normal">Minutes</span>
           </div>
         </div>
